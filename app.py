@@ -1,7 +1,9 @@
 import streamlit as st
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, time
+import os
 
-from pawpal_system import Owner, Pet, Task, Scheduler, Frequency, CompletionStatus
+from pawpal_system import Owner, Pet, Task, EnhancedScheduler, Frequency, CompletionStatus
+from rag_reliability import display_reliability_section
 
 st.set_page_config(page_title="PawPal+", page_icon="🐾", layout="centered")
 
@@ -76,6 +78,13 @@ st.caption("Add a few tasks. In your final version, these should feed into your 
 if "tasks" not in st.session_state:
     st.session_state.tasks = []
 
+if "task_date_input" not in st.session_state:
+    st.session_state.task_date_input = datetime.now().date()
+
+if "task_time_input" not in st.session_state:
+    now = datetime.now()
+    st.session_state.task_time_input = time(hour=now.hour, minute=now.minute)
+
 col1, col2, col3 = st.columns(3)
 with col1:
     task_title = st.text_input("Task title", value="Morning walk")
@@ -84,8 +93,8 @@ with col2:
 with col3:
     priority = st.selectbox("Priority", ["low", "medium", "high"], index=2)
 
-task_date = st.date_input("Task date", value=datetime.now().date())
-task_time_input = st.time_input("Task time", value=datetime.now().time())
+task_date = st.date_input("Task date", key="task_date_input")
+task_time_input = st.time_input("Task time", key="task_time_input")
 task_time = datetime.combine(task_date, task_time_input)
 
 if st.button("Schedule task"):
@@ -100,7 +109,7 @@ if st.button("Schedule task"):
             duration=int(duration),
             priority=priority_map.get(priority, 1),
         )
-        scheduler = Scheduler(st.session_state.owner)
+        scheduler = EnhancedScheduler(st.session_state.owner)
         scheduler.schedule_task(pet, task)
 
         st.session_state.tasks.append(
@@ -128,7 +137,7 @@ st.caption("This button now calls your scheduler logic from pawpal_system.")
 
 if st.button("Generate schedule"):
     owner = st.session_state.owner
-    scheduler = Scheduler(owner)
+    scheduler = EnhancedScheduler(owner)
 
     # Get prioritized upcoming tasks
     all_pending = scheduler.organize_tasks_by_priority()
@@ -179,3 +188,90 @@ if st.button("Generate schedule"):
         st.dataframe(overdue_rows, use_container_width=True)
     else:
         st.success("Schedule generated successfully! No overdue tasks.")
+
+    # AI Care Coach Advice
+    st.subheader("🤖 AI Care Coach")
+
+    # RAG Demo Toggle
+    show_rag_process = st.checkbox("🔍 Show RAG Process (Demo Mode)", help="Reveal how the AI retrieves and uses knowledge from local documents")
+
+    ai_result = scheduler.generate_ai_enhanced_summary()
+    st.text_area("AI-Enhanced Schedule Summary", ai_result['summary_text'], height=300)
+
+    if show_rag_process:
+        st.markdown("---")
+        st.subheader("🔍 RAG Process Breakdown")
+
+        # Show knowledge base
+        st.markdown("**📚 Knowledge Base Documents:**")
+        docs_path = "docs"
+        if os.path.exists(docs_path):
+            doc_files = [f for f in os.listdir(docs_path) if f.endswith('.md')]
+            for doc_file in doc_files:
+                with st.expander(f"📄 {doc_file}"):
+                    with open(os.path.join(docs_path, doc_file), 'r') as f:
+                        st.code(f.read(), language='markdown')
+        else:
+            st.warning("Knowledge base documents not found in 'docs/' directory")
+
+        # Show retrieval process
+        st.markdown("**🔎 Retrieval Analysis:**")
+
+        if ai_result['retrieval_details']:
+            st.markdown("**Search Queries & Retrieved Knowledge:**")
+            for retrieval in ai_result['retrieval_details']:
+                st.markdown(f"**Query:** `{retrieval['query']}`")
+                if retrieval['matched_documents']:
+                    st.markdown("**📖 Matched Documents:**")
+                    for doc_name, matches in retrieval['matched_documents'].items():
+                        with st.expander(f"From {doc_name}"):
+                            for match in matches:
+                                st.info(match)
+                else:
+                    st.warning("No documents matched this query")
+                st.markdown("---")
+        else:
+            st.info("No specific queries triggered for current schedule")
+
+        # Show schedule analysis
+        st.markdown("**📊 Schedule Analysis:**")
+        if ai_result['conflicts']:
+            st.markdown("**⚠️ Conflicts Detected:**")
+            for conflict in ai_result['conflicts']:
+                st.error(conflict)
+        else:
+            st.success("✅ No conflicts detected")
+
+        if ai_result['overdue']:
+            st.markdown("**⏰ Overdue Tasks:**")
+            for task in ai_result['overdue']:
+                st.warning(f"• {task}")
+        else:
+            st.success("✅ No overdue tasks")
+
+        # Show AI generation process
+        st.markdown("**🧠 AI Generation Process:**")
+        st.markdown("""
+        1. **Schedule Analysis**: AI analyzes conflicts, overdue tasks, and priorities
+        2. **Knowledge Retrieval**: Searches local documents for relevant pet care guidance
+        3. **Advice Synthesis**: Combines schedule data with retrieved knowledge
+        4. **Contextual Response**: Generates human-readable recommendations
+        """)
+
+        # Compare with basic scheduler
+        st.markdown("**⚖️ Comparison: Basic vs AI-Enhanced**")
+        col1, col2 = st.columns(2)
+
+        with col1:
+            st.markdown("**Basic Scheduler Output:**")
+            basic_summary = scheduler.generate_daily_summary()
+            st.text_area("Basic Summary", basic_summary, height=200, key="basic")
+
+        with col2:
+            st.markdown("**AI-Enhanced Output:**")
+            st.text_area("AI Summary", ai_result['summary_text'], height=200, key="ai")
+
+        st.markdown("*Notice how the AI coach provides specific pet care guidance and explanations!*")
+
+# Add reliability testing section
+display_reliability_section()

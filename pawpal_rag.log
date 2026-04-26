@@ -1,0 +1,93 @@
+2026-04-26 17:47:22,721 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:47:22,721 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:47:28,121 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:47:28,122 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:47:30,733 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:47:30,734 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:47:32,743 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:47:32,747 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:47:32,773 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 17:47:32,774 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 17:47:45,818 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:47:45,818 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:47:45,819 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 17:47:45,819 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 17:53:02,768 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:53:02,771 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:53:02,775 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 17:53:02,777 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 17:53:33,682 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:53:33,684 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:53:33,686 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 17:53:33,688 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 17:53:42,264 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:53:42,265 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:53:42,265 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 17:53:42,266 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 17:53:54,027 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:53:54,033 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:53:54,035 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 17:53:54,039 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 17:54:00,419 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:54:00,420 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:54:00,492 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 17:54:00,492 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 17:54:00,508 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:54:00,508 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:54:00,508 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 17:54:00,508 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 17:54:12,689 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:54:12,698 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:54:12,714 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 17:54:12,715 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 17:56:43,646 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:56:43,649 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 17:56:57,877 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 17:56:57,877 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:12:34,830 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:12:34,832 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:12:36,577 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:12:36,579 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:12:39,789 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:12:39,790 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:12:42,478 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:12:42,478 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:12:44,779 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:12:44,780 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:12:44,781 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 18:12:44,781 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 18:12:59,264 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:12:59,264 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:12:59,266 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 18:12:59,266 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 18:13:01,769 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:13:01,777 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:13:01,806 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 18:13:01,807 - pawpal_system - INFO - Generated advice: 1 queries, confidence=1.00
+2026-04-26 18:13:05,132 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:13:05,132 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:13:05,261 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:13:05,261 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:13:05,262 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 18:13:05,262 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 18:13:05,262 - pawpal_system - INFO - Generated advice: 2 queries, confidence=0.80
+2026-04-26 18:13:12,378 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:13:12,391 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:13:12,413 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 18:13:12,414 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 18:13:12,414 - pawpal_system - INFO - Generated advice: 2 queries, confidence=0.80
+2026-04-26 18:13:12,435 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:13:12,438 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:13:12,439 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 18:13:12,439 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 18:13:12,439 - pawpal_system - INFO - Generated advice: 2 queries, confidence=0.80
+2026-04-26 18:13:28,128 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:13:28,129 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:13:28,129 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 18:13:28,130 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 18:13:28,130 - pawpal_system - INFO - Generated advice: 2 queries, confidence=0.80
+2026-04-26 18:15:04,088 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 18:15:04,089 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 18:15:04,091 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 18:15:04,091 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 18:15:04,091 - pawpal_system - INFO - Generated advice: 2 queries, confidence=0.80
