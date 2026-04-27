@@ -1,5 +1,7 @@
 # 🐾 PawPal++ — AI-Powered Pet Care Planner
 
+**Presentation & Demo:** [Watch the Loom video](https://www.loom.com/share/059b8bafd1d64966b45dc0dbd94059dc)
+
 ## Title & Summary
 
 **PawPal++** is an AI-assisted pet care scheduling system that helps users plan, prioritize, and manage daily pet tasks. It combines rule-based scheduling with a Retrieval-Augmented Generation (RAG) system to provide intelligent explanations, safety warnings, and care recommendations.

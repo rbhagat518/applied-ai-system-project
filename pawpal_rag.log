@@ -91,3 +91,99 @@
 2026-04-26 18:15:04,091 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
 2026-04-26 18:15:04,091 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
 2026-04-26 18:15:04,091 - pawpal_system - INFO - Generated advice: 2 queries, confidence=0.80
+2026-04-26 21:45:53,397 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 21:45:53,399 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 21:45:53,402 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 21:45:53,403 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 21:45:53,403 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 21:45:53,403 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 21:45:55,306 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 21:45:55,306 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 21:45:55,306 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 21:45:55,306 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 21:45:55,307 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 21:45:55,307 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 21:46:04,964 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 21:46:04,965 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 21:46:04,968 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 21:46:04,972 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 21:46:04,973 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 21:46:04,978 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 21:46:09,757 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 21:46:09,757 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 21:46:09,758 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 21:46:09,758 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 21:46:09,759 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 21:46:09,759 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 21:46:26,369 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 21:46:26,371 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 21:46:26,466 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 21:46:26,466 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 21:46:26,467 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 21:46:26,467 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 21:46:26,496 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 21:46:26,507 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 21:46:26,511 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 21:46:26,513 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 21:46:26,515 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 21:46:26,516 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 21:46:33,437 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 21:46:33,437 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 21:46:33,438 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 21:46:33,439 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 21:46:33,439 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 21:46:33,439 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 21:46:39,878 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 21:46:39,879 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 21:46:39,880 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 21:46:39,881 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 21:46:39,881 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 21:46:39,881 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 21:47:54,921 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 21:47:54,935 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 21:47:55,020 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 21:47:55,020 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 21:47:55,021 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 21:47:55,022 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 21:47:55,047 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 21:47:55,047 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 21:47:55,050 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 21:47:55,053 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 21:47:55,054 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 21:47:55,054 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 22:09:40,613 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 22:09:40,615 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 22:09:40,617 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 22:09:40,617 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 22:09:40,617 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 22:09:40,618 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 22:09:42,958 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 22:09:42,964 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 22:09:42,986 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 22:09:42,987 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 22:09:42,988 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 22:09:42,988 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 22:09:43,017 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 22:09:43,018 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 22:09:43,018 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 22:09:43,019 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 22:09:43,019 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 22:09:43,020 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 22:18:41,821 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 22:18:41,823 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 22:18:41,844 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 22:18:41,847 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 22:18:41,850 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 22:18:41,855 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 22:18:42,498 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 22:18:42,498 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 22:18:42,980 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 22:18:42,981 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 22:18:42,982 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 22:18:42,995 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
+2026-04-26 22:18:43,089 - pawpal_system - INFO - RagRetriever initialized with 3 documents
+2026-04-26 22:18:43,102 - pawpal_system - INFO - AiCareCoach initialized
+2026-04-26 22:18:43,103 - pawpal_system - INFO - Retrieved for query 'medication priority': 3 docs, confidence=1.0
+2026-04-26 22:18:43,104 - pawpal_system - INFO - Retrieved for query 'conflict resolution': 2 docs, confidence=0.6
+2026-04-26 22:18:43,105 - pawpal_system - INFO - Retrieved for query 'overdue tasks': 3 docs, confidence=1.0
+2026-04-26 22:18:43,105 - pawpal_system - INFO - Generated advice: 3 queries, confidence=0.87
